@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background: #fafafa;
+}
+.dark body{
+  background: #171723;
+}
+
+#hero-image{
+  background: url('./images/bg-mobile-light.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.dark #hero-image{
+  background-image: url('./images/bg-mobile-dark.jpg');
+}
+@media (min-width: 768px) {
+  #hero-image{
+    background-image: url('./images/bg-desktop-light.jpg');
+  }
+  .dark #hero-image{
+    background-image: url('./images/bg-desktop-dark.jpg');
+  }
+}
