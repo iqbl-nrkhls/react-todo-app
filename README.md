@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/todo-app-using-react-redux-and-tailwindcss-95bDvc1bi](https://www.frontendmentor.io/solutions/todo-app-using-react-redux-and-tailwindcss-95bDvc1bi)
+- Live Site URL: [https://iqbl-nrkhls.github.io/react-todo-app/](https://iqbl-nrkhls.github.io/react-todo-app/)
 
 ## Built with
 
