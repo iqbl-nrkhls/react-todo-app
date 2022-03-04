@@ -20,9 +20,12 @@ const Check = (props) => {
       ' group-hover:bg-gradient-to-br from-[#57ddff] to-[#c058f3]'}>
       <button
         onClick={handleClick}
-        className={'rounded-full w-full h-full flex justify-center items-center'+((props.completed)?'':' bg-white dark:bg-dark-1')}>
+        className={'rounded-full w-full h-full flex justify-center items-center'+((props.completed)?'':' bg-white dark:bg-dark-1')}
+        role="checkbox"
+        aria-label="checkbox todo"
+        aria-checked={props.completed} >
         {props.completed && (
-          <img src="images/icon-check.svg" />
+          <img src="images/icon-check.svg" alt="icon check" />
         )}
       </button>
     </div>

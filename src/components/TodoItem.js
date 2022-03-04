@@ -21,8 +21,9 @@ const TodoItem = (props) => {
         <p className={"mt-1 grow text-xs md:text-base "+(item.completed ? " line-through text-light-1 dark:text-light-2" : " text-dark dark:text-white")}>{item.title}</p>
         <button
           onClick={(e) => dispatch(removeTodo(item.id))}
-          className="shrink-0 group-hover:opacity-100 md:opacity-0">
-          <img src="images/icon-cross.svg" className="p-1 h-[20px]" />
+          className="shrink-0 group-hover:opacity-100 md:opacity-0"
+          aria-label="delete todo" >
+          <img src="images/icon-cross.svg" className="p-1 h-[20px]" alt="icon delete" />
         </button>
       </div>
     </div>

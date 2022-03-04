@@ -27,7 +27,7 @@ const DisplayTodos = (props) => {
   }
 
   return (
-    <>
+    <main>
       <div className="rounded-md overflow-hidden mb-5 bg-white dark:bg-dark-1 drop-shadow-2xl">
         <Reorder.Group axis="y" onReorder={handleReorder} values={todos}>
           {todos.length > 0 && filter === 'active'
@@ -85,7 +85,7 @@ const DisplayTodos = (props) => {
       </div>
 
       <p className="text-sm text-center text-light-2 mt-10">Drag and drop to reorder list</p>
-    </>
+    </main>
   )
 }
 
